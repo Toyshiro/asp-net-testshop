@@ -1,0 +1,11 @@
+E:\Programmig\csharp\ASP NET\TestShop\TestShop\bin\Debug\netcoreapp2.0\TestShop.deps.json
+E:\Programmig\csharp\ASP NET\TestShop\TestShop\bin\Debug\netcoreapp2.0\TestShop.runtimeconfig.json
+E:\Programmig\csharp\ASP NET\TestShop\TestShop\bin\Debug\netcoreapp2.0\TestShop.runtimeconfig.dev.json
+E:\Programmig\csharp\ASP NET\TestShop\TestShop\bin\Debug\netcoreapp2.0\TestShop.dll
+E:\Programmig\csharp\ASP NET\TestShop\TestShop\bin\Debug\netcoreapp2.0\TestShop.pdb
+E:\Programmig\csharp\ASP NET\TestShop\TestShop\obj\Debug\netcoreapp2.0\TestShop.csprojResolveAssemblyReference.cache
+E:\Programmig\csharp\ASP NET\TestShop\TestShop\obj\Debug\netcoreapp2.0\TestShop.csproj.CoreCompileInputs.cache
+E:\Programmig\csharp\ASP NET\TestShop\TestShop\obj\Debug\netcoreapp2.0\TestShop.AssemblyInfoInputs.cache
+E:\Programmig\csharp\ASP NET\TestShop\TestShop\obj\Debug\netcoreapp2.0\TestShop.AssemblyInfo.cs
+E:\Programmig\csharp\ASP NET\TestShop\TestShop\obj\Debug\netcoreapp2.0\TestShop.dll
+E:\Programmig\csharp\ASP NET\TestShop\TestShop\obj\Debug\netcoreapp2.0\TestShop.pdb
