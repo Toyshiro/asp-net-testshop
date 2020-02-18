@@ -27,6 +27,8 @@ namespace TestShop
                 app.UseDeveloperExceptionPage();
             }
 
+            
+
             app.Run(async (context) =>
             {
                 await context.Response.WriteAsync("Hello World!");
