@@ -14,25 +14,25 @@ namespace TestShop
         
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddMvc();
+
         }
 
         
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
-            app.UseDefaultFiles();
-            app.UseStaticFiles();
+            app.UseDeveloperExceptionPage();
+            app.UseMvcWithDefaultRoute();
             
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
             }
+          
+
 
             
-
-            app.Run(async (context) =>
-            {
-                await context.Response.WriteAsync("Hello World!");
-            });
         }
     }
 }
