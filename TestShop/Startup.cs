@@ -6,15 +6,26 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using TestShop.Models;
 
 namespace TestShop
 {
     public class Startup
     {
+        private IConfiguration _Configuration { get; }
+        public Startup(IConfiguration configuration)
+        {
+            _Configuration = configuration;
+        }
         
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+            string connection = _Configuration.GetConnectionString("DefaultConnection");
+            services.AddDbContext<ShopContext>(options => options.UseSqlServer(connection));
+            
 
         }
 
@@ -23,7 +34,7 @@ namespace TestShop
         {
             app.UseDeveloperExceptionPage();
             app.UseMvcWithDefaultRoute();
-            
+            app.UseStaticFiles();
 
             if (env.IsDevelopment())
             {
